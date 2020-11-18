@@ -27,6 +27,7 @@ call plug#end()
 set t_Co=256
 syntax on
 colorscheme minimalist
+set encoding=utf-8
 
 " Configuración general de Neovim
 set number
