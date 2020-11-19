@@ -8,6 +8,13 @@ Plug 'jiangmiao/auto-pairs' " Autocompletado para los parentesis
 Plug 'preservim/nerdcommenter' " Atajo para agregar comentarios
 Plug 'christoomey/vim-tmux-navigator' " Modo para moverse entre ventanas de vim
 
+Plug 'SirVer/ultisnips' " ultisnips and vim-snippets son complementos para markdown desde https://jdhao.github.io/2019/01/15/markdown_edit_preview_nvim/ 
+Plug 'honza/vim-snippets'
+" Configuración para Markdown
+let g:UltiSnipsExpandTrigger="<tab>"  " use <Tab> to trigger autocompletion
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
 
 "Inicio de la configuración de deoplete (ver github)
 Plug 'preservim/nerdtree' 
