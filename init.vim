@@ -54,4 +54,12 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 
 
+" Folding text
+" https://stackoverflow.com/questions/357785/what-is-the-recommended-way-to-use-vim-folding-for-python-code
+set foldmethod=manual
+nnoremap <space> za
+vnoremap <space> zf
+
+
+
 
